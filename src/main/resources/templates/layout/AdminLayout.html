@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html th:fragment="main(content)" lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Zanarkand Admin</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="../../static/css/font-awesome-5.css" th:href="@{/css/font-awesome-5.css}">
+</head>
+<body>
+
+<div th:replace="fragments/admin/nav.html :: navigation"></div>
+
+<script src="../../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+<script src="../../static/js/jquery.js" th:src="@{/js/jquery.js}"></script>
+<script src="../../static/js/popper.min.js" th:src="@{/js/popper.min.js}"></script>
+</body>
+</html>
